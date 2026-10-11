@@ -1,0 +1,41 @@
+{
+ "name": "Epochs of Dominion",
+ "short_name": "Epochs",
+ "description": "A real-time strategy game across fifteen epochs.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "fullscreen",
+ "display_override": [
+  "fullscreen",
+  "standalone"
+ ],
+ "orientation": "any",
+ "background_color": "#0b0e13",
+ "theme_color": "#0b0e13",
+ "categories": [
+  "games"
+ ],
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "apple-touch-icon.png",
+   "sizes": "180x180",
+   "type": "image/png"
+  }
+ ]
+}
