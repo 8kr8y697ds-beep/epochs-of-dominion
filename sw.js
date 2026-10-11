@@ -1,5 +1,5 @@
 /* Epochs of Dominion offline cache. Bump VERSION on every release. */
-const VERSION='eod-dc745f4e3d';
+const VERSION='eod-8204a90917';
 const FONTS='eod-fonts';
 const CORE=['./','index.html','manifest.webmanifest','apple-touch-icon.png','icon-192.png','icon-512.png','icon-maskable-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(VERSION).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));});
